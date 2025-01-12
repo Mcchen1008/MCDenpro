@@ -1,17 +1,70 @@
+/* 全局样式 */
 body {
     font - family: Arial, sans - serif;
-    background - color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background - color: #87CEEB;
+    color: #333;
 }
-
-header {
-    background - color: #333;
-    color: white;
+a {
+    text - decoration: none;
+    color: #333;
+}
+/* 头部样式 */
+.header {
+    background - color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify - content: space - between;
+    align - items: center;
+}
+.logo {
+    font - size: 24px;
+    font - weight: bold;
+}
+.nav ul {
+    list - style - type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav ul li {
+    margin: 0 15px;
+}
+/* 主体样式 */
+.main {
+    padding: 20px;
+}
+.hero {
+    background - image: url('hero_background.jpg');
+    background - size: cover;
+    background - position: center;
     text - align: center;
-    padding: 20px;
+    padding: 100px 0;
+    color: #FFFFFF;
+    margin - bottom: 30px;
 }
-
-main {
-    padding: 20px;
+.featured - content {
+    display: flex;
+    justify - content: space - between;
+}
+.featured - item {
+    width: 48%;
+    background - color: #FFFFFF;
+    border - radius: 5px;
+    padding: 15px;
+    text - align: center;
+    box - shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.featured - item img {
+    width: 100%;
+    height: auto;
+    margin - bottom: 10px;
+}
+/* 底部样式 */
+.footer {
+    background - color: #FFFFFF;
+    text - align: center;
+    padding: 10px;
+    margin - top: 30px;
 }
