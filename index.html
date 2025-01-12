@@ -1,37 +1,55 @@
 <!DOCTYPE html>
-<html lang="zh - CN">
+<html lang="en">
+
 <head>
-    <meta charset="UTF - 8">
-    <meta name="viewport" content="width=device - width, initial - scale = 1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MC小窝</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <header class="header">
-        <h1 class="logo">MC小窝</h1>
+        <div class="logo-container">
+            <img src="mc_logo.png" alt="MC小窝" class="logo">
+            <h1 class="site-title">MC小窝</title>
+        </div>
         <nav class="nav">
             <ul>
                 <li><a href="#">首页</a></li>
-                <li><a href="#">建筑展示</a></li>
-                <li><a href="#">资源分享</a></li>
-                <li><a href="#">社区交流</a></li>
+                <li><a href="#">精彩世界</a></li>
+                <li><a href="#">创意工坊</a></li>
+                <li><a href="#">玩家社区</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
-        <section class="hero">
-            <h2>欢迎来到Minecraft的奇妙世界</h2>
-            <p>探索无尽创意，分享游戏乐趣</p>
-        </section>
-        <section class="featured - content">
-            <h3>特色内容</h3>
-            <div class="featured - item">
-                <img src="image1.jpg" alt="精美建筑">
-                <p>精美建筑展示</p>
+        <section class="intro-section">
+            <div class="intro-content">
+                <h2>踏入MC的奇幻宇宙</h2>
+                <p>这里是属于《我的世界》爱好者的专属天地，一起挖掘无限可能，共享欢乐时光。</p>
+                <a href="#" class="btn">探索更多</a>
             </div>
-            <div class="featured - item">
-                <img src="image2.jpg" alt="游戏资源">
-                <p>实用游戏资源</p>
+            <div class="intro-image">
+                <img src="mc_world.jpg" alt="MC世界" class="main-img">
+            </div>
+        </section>
+        <section class="feature-section">
+            <div class="feature-item">
+                <i class="fa-solid fa-building"></i>
+                <h3>奇妙建筑</h3>
+                <p>欣赏玩家们创造的令人惊叹的建筑杰作。</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-toolbox"></i>
+                <h3>实用工具</h3>
+                <p>获取各种助力游戏的实用工具与资源。</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-users"></i>
+                <h3>互动社区</h3>
+                <p>加入活跃的玩家社区，交流心得，结交好友。</p>
             </div>
         </section>
     </main>
@@ -40,4 +58,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
