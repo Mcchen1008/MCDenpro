@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="zh - CN">
-
 <head>
     <meta charset="UTF - 8">
     <meta name="viewport" content="width=device - width, initial - scale = 1.0">
     <title>MC小窝</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <h1>欢迎来到MC小窝</h1>
+    <header class="header">
+        <h1 class="logo">MC小窝</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">建筑展示</a></li>
+                <li><a href="#">资源分享</a></li>
+                <li><a href="#">社区交流</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <p>这里是关于Minecraft的精彩世界，分享各种有趣内容。</p>
+    <main class="main">
+        <section class="hero">
+            <h2>欢迎来到Minecraft的奇妙世界</h2>
+            <p>探索无尽创意，分享游戏乐趣</p>
+        </section>
+        <section class="featured - content">
+            <h3>特色内容</h3>
+            <div class="featured - item">
+                <img src="image1.jpg" alt="精美建筑">
+                <p>精美建筑展示</p>
+            </div>
+            <div class="featured - item">
+                <img src="image2.jpg" alt="游戏资源">
+                <p>实用游戏资源</p>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <p>&copy; 2025 MC小窝版权所有</p>
+    </footer>
     <script src="script.js"></script>
 </body>
-
 </html>
