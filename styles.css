@@ -1,29 +1,40 @@
-/* 全局样式 */
+/* 全局通用样式 */
 body {
-    font - family: Arial, sans - serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background - color: #87CEEB;
-    color: #333;
+    background-color: #003366;
+    color: #fff;
+    line-height: 1.6;
 }
 a {
-    text - decoration: none;
-    color: #333;
+    text-decoration: none;
+    color: inherit;
 }
 /* 头部样式 */
 .header {
-    background - color: #FFFFFF;
-    padding: 10px;
     display: flex;
-    justify - content: space - between;
-    align - items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+}
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 .logo {
-    font - size: 24px;
-    font - weight: bold;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.site-title {
+    font-size: 28px;
+    font-weight: bold;
 }
 .nav ul {
-    list - style - type: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
@@ -33,38 +44,58 @@ a {
 }
 /* 主体样式 */
 .main {
-    padding: 20px;
+    padding: 40px;
 }
-.hero {
-    background - image: url('hero_background.jpg');
-    background - size: cover;
-    background - position: center;
-    text - align: center;
-    padding: 100px 0;
-    color: #FFFFFF;
-    margin - bottom: 30px;
-}
-.featured - content {
+.intro-section {
     display: flex;
-    justify - content: space - between;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 }
-.featured - item {
-    width: 48%;
-    background - color: #FFFFFF;
-    border - radius: 5px;
-    padding: 15px;
-    text - align: center;
-    box - shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.intro-content {
+    width: 50%;
 }
-.featured - item img {
-    width: 100%;
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00FF00;
+    color: #003366;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #00cc00;
+}
+.intro-image.main-img {
+    width: 450px;
     height: auto;
-    margin - bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+}
+.feature-item {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.feature-item:hover {
+    transform: translateY(-5px);
+}
+.feature-item i {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 /* 底部样式 */
 .footer {
-    background - color: #FFFFFF;
-    text - align: center;
-    padding: 10px;
-    margin - top: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
 }
