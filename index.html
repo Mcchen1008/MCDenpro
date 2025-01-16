@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +7,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
     <header class="header">
         <div class="logo-container">
-            <img src="mc_logo.png" alt="MC小窝" class="logo">
+            <img src="website_icon.png" alt="网站图标" class="website-icon">
             <h1 class="site-title">MC小窝</h1>
         </div>
         <nav class="nav">
@@ -23,12 +21,21 @@
                 <li><a href="#">玩家社区</a></li>
             </ul>
         </nav>
+        <div class="qq-group-container">
+            <div class="qq-group-box">
+                <h3>我们的交流群</h3>
+                <img src="QQ.jpeg" alt="QQ交流群" class="qq-group-image">
+                <p class="qq-group-number">群号：963473968 <button class="copy-button" data-text="963473968">复制</button></p>
+            </div>
+        </div>
     </header>
     <main class="main">
         <section class="intro-section">
             <div class="intro-content">
                 <h2>踏入MC的奇幻宇宙</h2>
-                <p>这里是属于《我的世界》爱好者的专属天地，一起挖掘无限可能，共享欢乐时光。<span class="qq-image-wrapper"><img src="QQ.jpeg" alt="QQ交流群" class="qq-group-image"></span></p>
+                <div class="intro-text">
+                    <p>这里是属于《我的世界》爱好者的专属天地，一起挖掘无限可能，共享欢乐时光。</p>
+                </div>
                 <a href="#" class="btn">探索更多</a>
             </div>
             <div class="intro-image">
@@ -55,8 +62,8 @@
         <section class="server-section">
             <h2>服务器连接信息</h2>
             <p>欢迎各位玩家加入我们的《我的世界》国际版服务器，以下是连接信息：</p>
-            <p><strong>服务器地址：</strong> <a href="minecraft://MCDenpro.aternos.me:62508">MCDenpro.aternos.me</a></p>
-            <p><strong>端口：</strong> 62508</p>
+            <p><strong>服务器地址：</strong> <a href="minecraft://MCDenpro.aternos.me:62508">MCDenpro.aternos.me</a> <button class="copy-button" data-text="MCDenpro.aternos.me:62508">复制</button></p>
+            <p><strong>端口：</strong> 62508 <button class="copy-button" data-text="62508">复制</button></p>
             <p>快来和小伙伴们一起在服务器中开启奇妙的冒险之旅吧！</p>
         </section>
     </main>
@@ -65,5 +72,4 @@
     </footer>
     <script src="script.js"></script>
 </body>
-
-                                           </html>
+    </html>
